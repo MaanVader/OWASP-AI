@@ -118,7 +118,7 @@ def init_openai():
     session_id = get_session_id()
     
     # AI server setup
-    openai.api_base = "http://localhost:8501/v1"
+    openai.api_base = "http://localhost:11434/v1"
     openai.api_key = "ollama"
     
     # Test connection (cached per session)
